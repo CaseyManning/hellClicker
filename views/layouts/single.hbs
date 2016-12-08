@@ -1,0 +1,31 @@
+<html>
+    <head>
+	<title>{{title}}</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Language" content="en">
+
+	<link rel="stylesheet" href="/css/bootstrap.css"></link>
+	<link rel="stylesheet" href="/css/style.css"></link>
+	<link rel="stylesheet" href="css/materialize.css">
+	<script type="text/javascript" src="/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+   <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+	<!--<script type="text/javascript" src="/js/index.js"></script>-->
+	<script src="js/init.js"></script>
+	</head>
+	<body style="background-color: #000000">
+		{{>header}}
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					{{{ body }}}
+				</div>
+            </div>
+		</div>
+	</body>
+</html>
