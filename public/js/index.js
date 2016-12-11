@@ -666,7 +666,7 @@ function punishmentChooser() {
 	} else if(stats.laziness > 2) {
 		return "intense manual labor for " + stats.laziness + "000 years";
 	} else if(stats.evil > 0) {
-		return "having your belongings all stolen from you and your house being broken into over and over again for " + stats.evil + (stats.evil/3) + "00 years.";
+		return "having your belongings all stolen from you and your house being broken into over and over again for " + (2*stats.evil) + (stats.evil) + "00 years.";
 	} else {
 		return "The fact that you didn't do anything wrong is a punishment in itself."
 	}
