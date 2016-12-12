@@ -655,6 +655,9 @@ function functionbunction() {
 		console.log(stats.murder);
 		console.log(stats.laziness);
 		$("#text").text($("#text").text() + punishmentChooser());
+		$("#option1").css("opacity", 0);
+		$("#option2").css("opacity", 0);
+		$("#option3").css("opacity", 0);
 	}
 }
 
