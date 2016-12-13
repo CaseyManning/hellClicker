@@ -518,14 +518,14 @@ var yetanotherroom = {
 	o2: "evil",
 	destination2: "outside2",
 
-	option3: "Leave with many paintings as you can carry.",
+	option3: "Leave with as many paintings as you can carry.",
 	o3: "evil",
 	destination3: "outside2"
 }
 
 
 var phone = {
-	text: "You take out your phone. You start playing a level of a new game you got, but you stop after you start feeling sorry for yourself.",
+	text: "You take out your phone. You stare at it for a while, but then stop when you think that you probably have something better to do.",
 	
 	option1: "Stay in bed",
 	o1: "laziness",
