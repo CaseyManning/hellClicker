@@ -118,9 +118,9 @@ var bakery = {
 	o2: "nothing",
 	destination2: "bakerytalk",
 
-	option3: "Walk up to the counter",
+	option3: "",
 	o3: "nothing",
-	destination3: "end"
+	destination3: "bakery"
 }
 
 var bakerytalk = {
