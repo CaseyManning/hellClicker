@@ -52,9 +52,9 @@ var outside = {
 	o2: "evil",
 	destination2: "windowroom",
 
-	option3: "Keep Walking",
+	option3: "",
 	o3: "nothing",
-	destination3: "outside2"
+	destination3: "outside"
 
 }
 
@@ -398,8 +398,8 @@ var newspaperread = {
 var doorway = {
 	text: "You walk up the steps and ring the doorbell. After a moment, a man opens the door.",
 	
-	option1: "Run away",
-	o1: "evil",
+	option1: "Walk away",
+	o1: "nothing",
 	destination1: "outside2",
 
 	option2: "Talk about the weather",
