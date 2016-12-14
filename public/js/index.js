@@ -270,7 +270,7 @@ var houseattack = {
 	text: "The man is too surprised to put up much resistance. You think he might be dead.",
 	
 	option1: "Leave out the window",
-	o1: "murder",
+	o1: "nothing",
 	destination1: "houseattack",
 
 	option2: "Go into another room",
@@ -278,7 +278,7 @@ var houseattack = {
 	destination2: "outside2",
 
 	option3: "See if the man has any valuables on him",
-	o3: "nothing",
+	o3: "evil",
 	destination3: "housemansearch"
 }
 
@@ -322,7 +322,7 @@ var hatmantalk2 = {
 	destination1: "outside3",
 
 	option2: "Pretend to leave, then try to steal his hat",
-	o2: "nothing",
+	o2: "evil",
 	destination2: "hatsteal",
 
 	option3: "",
@@ -355,7 +355,7 @@ var watchsteal = {
 	destination1: "outside3",
 
 	option2: "Give the man his hat back and run away",
-	o2: "laziness",
+	o2: "nothing",
 	destination2: "outside3",
 
 	option3: "Silence the man with a proper beating",
@@ -414,8 +414,8 @@ var doorway = {
 var doorwaytalk = {
 	text: "\"Erhm, it's a nice sunny day isn't it...    Weather sure is joyous...\" This doesn't seem to be going well.",
 	
-	option1: "Run away",
-	o1: "evil",
+	option1: "Walk away",
+	o1: "nothng",
 	destination1: "outside2",
 
 	option2: "Ask for a donation to help homeless sloths",
