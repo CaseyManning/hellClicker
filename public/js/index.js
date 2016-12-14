@@ -27,17 +27,18 @@ var start = {
 var bed = {
 	text: "You spent the entire day in bed, and now the next morning has come.",
 	
-	option1: "Stay in bed",
-	o1: "laziness",
-	destination1: "bed",
+	option1: "Go outside",
+	o1: "nothing",
+	destination1: "outside",
 
-	option2: "Go outside",
+	option2: "Take out your phone",
 	o2: "nothing",
-	destination2: "outside",
+	destination2: "phone",
 
-	option3: "Take out your phone",
+	option3: "",
 	o3: "nothing",
-	destination3: "phone"
+	destination3: "bed"
+
 }
 
 var outside = {
@@ -150,22 +151,6 @@ var bakerybuy = {
 	destination2: "start",
 
 	option3: "Leave",
-	o3: "nothing",
-	destination3: "end"
-}
-
-var end = {
-	text: "As you keep walking, you see three small children sitting on a bench",
-	
-	option1: "Offer them candy from your pocket",
-	o1: "nothing",
-	destination1: "candy",
-
-	option2: "Start talking to one of them",
-	o2: "nothing",
-	destination2: "childtalk",
-
-	option3: "Keep walking",
 	o3: "nothing",
 	destination3: "end"
 }
@@ -514,7 +499,7 @@ var yetanotherroom = {
 	o1: "nothing",
 	destination1: "outside2",
 
-	option2: "Take a painting with you and leave",
+	option2: "Take a painting and leave",
 	o2: "evil",
 	destination2: "outside2",
 
